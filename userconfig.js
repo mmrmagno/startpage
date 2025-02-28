@@ -4,7 +4,7 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "Kolkata",
+    location: "Zurich",
     scale: "C",
   },
   clock: {
@@ -23,12 +23,6 @@ const default_config = {
           name: "media/rrss",
           links: [
             {
-              name: "mastodon",
-              url: "https://mastodon.social",
-              icon: "brand-mastodon",
-              icon_color: palette.green,
-            },
-            {
               name: "reddit",
               url: "https://www.reddit.com/",
               icon: "brand-reddit",
@@ -45,18 +39,6 @@ const default_config = {
               url: "https://www.twitch.tv/",
               icon: "brand-twitch",
               icon_color: palette.blue,
-            },
-            {
-              name: "hacker-news",
-              url: "https://news.ycombinator.com/ask",
-              icon: "news",
-              icon_color: palette.mauve,
-            },
-            {
-              name: "lemmy",
-              url: "https://lemmy.ml/",
-              icon: "users",
-              icon_color: palette.sky,
             },
           ],
         },
@@ -77,7 +59,7 @@ const default_config = {
             },
             {
               name: "vault",
-              url: "https://vault.bitwarden.com",
+              url: "https://pass.proton.me",
               icon: "lock",
               icon_color: palette.red,
             },
@@ -90,11 +72,11 @@ const default_config = {
           ],
         },
         {
-          name: "school",
+          name: "BBBschool",
           links: [
             {
-              name: "aules",
-              url: "https://aules.edu.gva.es/semipresencial/my/index.php?lang=es",
+              name: "moodle",
+              url: "https://moodle.bbbaden.ch/",
               icon: "school",
               icon_color: palette.green,
             },
@@ -103,12 +85,6 @@ const default_config = {
               url: "https://outlook.office.com/mail/",
               icon: "inbox",
               icon_color: palette.peach,
-            },
-            {
-              name: "aws",
-              url: "https://awsacademy.instructure.com/",
-              icon: "brand-aws",
-              icon_color: palette.red,
             },
           ],
         },
@@ -127,34 +103,16 @@ const default_config = {
           name: "shopping",
           links: [
             {
-              name: "pccomponentes",
-              url: "https://www.pccomponentes.com/",
+              name: "digitec",
+              url: "https://www.digitec.ch/",
               icon: "device-desktop",
               icon_color: palette.green,
             },
             {
               name: "amazon",
-              url: "https://www.amazon.es/",
+              url: "https://www.amazon.de/",
               icon: "brand-amazon",
               icon_color: palette.peach,
-            },
-            {
-              name: "amazon-tracker",
-              url: "https://camelcamelcamel.com/",
-              icon: "chart-area",
-              icon_color: palette.red,
-            },
-            {
-              name: "chollometro",
-              url: "https://www.chollometro.com/",
-              icon: "basket",
-              icon_color: palette.blue,
-            },
-            {
-              name: "kimovil",
-              url: "https://www.kimovil.com/en/",
-              icon: "cell-signal-5",
-              icon_color: palette.mauve,
             },
           ],
         },
@@ -163,27 +121,21 @@ const default_config = {
           links: [
             {
               name: "portainer",
-              url: "http://127.0.0.1:9000",
+              url: "https://portainer.marc-os.com/",
               icon: "brand-docker",
               icon_color: palette.green,
             },
             {
-              name: "syncthing",
-              url: "http://127.0.0.1:8384/",
+              name: "NPM",
+              url: "https://npm.marc-os.com/",
               icon: "refresh",
               icon_color: palette.peach,
             },
             {
-              name: "stirling-pdf",
-              url: "http://127.0.0.1:7896/",
+              name: "docmost",
+              url: "https://docs.marc-os.com",
               icon: "pdf",
               icon_color: palette.red,
-            },
-            {
-              name: "vercel",
-              url: "https://vercel.com/dashboard",
-              icon: "brand-vercel",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -201,24 +153,6 @@ const default_config = {
               url: "https://github.com",
               icon: "brand-github",
               icon_color: palette.green,
-            },
-            {
-              name: "dev-community",
-              url: "https://dev.to/",
-              icon: "article",
-              icon_color: palette.peach,
-            },
-            {
-              name: "wakatime",
-              url: "https://wakatime.com",
-              icon: "24-hours",
-              icon_color: palette.red,
-            },
-            {
-              name: "dotfyle",
-              url: "https://dotfyle.com/",
-              icon: "puzzle",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -243,12 +177,7 @@ const default_config = {
               icon: "school",
               icon_color: palette.red,
             },
-            {
-              name: "exercism",
-              url: "https://exercism.org/",
-              icon: "calculator",
-              icon_color: palette.blue,
-            },
+
           ],
         },
         {
@@ -366,16 +295,10 @@ const default_config = {
           name: "deals",
           links: [
             {
-              name: "GG Deals",
-              url: "https://gg.deals/",
+              name: "Instant-Gaming",
+              url: "https://www.instant-gaming.com/",
               icon: "cash",
               icon_color: palette.green,
-            },
-            {
-              name: "r/gameDeals",
-              url: "https://www.reddit.com/r/GameDeals/",
-              icon: "currency-euro",
-              icon_color: palette.peach,
             },
           ],
         },
@@ -433,29 +356,6 @@ const default_config = {
               name: "games megathread",
               url: "https://rentry.org/pgames",
               icon: "device-gamepad",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: "mods",
-          links: [
-            {
-              name: "nexus mods",
-              url: "https://www.nexusmods.com/",
-              icon: "hexagons",
-              icon_color: palette.green,
-            },
-            {
-              name: "modrinth",
-              url: "https://modrinth.com/",
-              icon: "brand-minecraft",
-              icon_color: palette.peach,
-            },
-            {
-              name: "moddb",
-              url: "https://www.moddb.com",
-              icon: "file-type-sql",
               icon_color: palette.red,
             },
           ],
@@ -524,105 +424,6 @@ const default_config = {
             },
           ],
         },
-        {
-          name: "rating/tracking",
-          links: [
-            {
-              name: "AOTY",
-              url: "https://www.albumoftheyear.org/",
-              icon: "calendar-time",
-              icon_color: palette.green,
-            },
-            {
-              name: "rateyourmusic",
-              url: "https://rateyourmusic.com/",
-              icon: "stars-off",
-              icon_color: palette.peach,
-            },
-            {
-              name: "lastfm",
-              url: "https://www.last.fm",
-              icon: "brand-lastfm",
-              icon_color: palette.red,
-            },
-            {
-              name: "listenbrainz",
-              url: "https://listenbrainz.org",
-              icon: "ear",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "discussion",
-          links: [
-            {
-              name: "r/musicproduction",
-              url: "https://www.reddit.com/r/musicproduction/",
-              icon: "device-speaker",
-              icon_color: palette.green,
-            },
-            {
-              name: "r/hiphopheads",
-              url: "https://www.reddit.com/r/hiphopheads/",
-              icon: "headphones",
-              icon_color: palette.peach,
-            },
-            {
-              name: "r/audiophile",
-              url: "https://www.reddit.com/r/audiophile/",
-              icon: "ear",
-              icon_color: palette.red,
-            },
-            {
-              name: "r/music",
-              url: "https://www.reddit.com/r/music/",
-              icon: "music-heart",
-              icon_color: palette.blue,
-            },
-            {
-              name: "r/metal",
-              url: "https://www.reddit.com/r/metal/",
-              icon: "guitar-pick",
-              icon_color: palette.mauve,
-            },
-          ],
-        },
-        {
-          name: "resources",
-          links: [
-            {
-              name: "freesound",
-              url: "https://freesound.org/",
-              icon: "volume",
-              icon_color: palette.green,
-            },
-            {
-              name: "pluginboutique",
-              url: "https://www.pluginboutique.com/",
-              icon: "building-store",
-              icon_color: palette.peach,
-            },
-            {
-              name: "pianobook",
-              url: "https://www.pianobook.co.uk",
-              icon: "piano",
-              icon_color: palette.red,
-            },
-            {
-              name: "musescore",
-              url: "https://musescore.com/",
-              icon: "numbers",
-              icon_color: palette.blue,
-            },
-            {
-              name: "songsterr",
-              url: "https://www.songsterr.com/",
-              icon: "vinyl",
-              icon_color: palette.mauve,
-            },
-          ],
-        },
       ],
     },
     {
@@ -632,18 +433,6 @@ const default_config = {
         {
           name: "media",
           links: [
-            {
-              name: "unsplash",
-              url: "https://unsplash.com",
-              icon: "brand-unsplash",
-              icon_color: palette.green,
-            },
-            {
-              name: "pixiv",
-              url: "https://www.pixiv.net/en/",
-              icon: "artboard",
-              icon_color: palette.peach,
-            },
             {
               name: "pinterest",
               url: "https://www.pinterest.com/",
